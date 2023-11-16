@@ -1,5 +1,9 @@
 from setuptools import setup, find_packages
 
+
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
+
 setup(
     name='stellarblue-parsing-models', 
     version='1.0.0',
@@ -9,11 +13,7 @@ setup(
     url='https://github.com/Power-Systems-Lab-AUTH/python-parsing-models', 
     packages=find_packages(),
     include_package_data=True,
-    install_requires=[
-        'fastapi==0.104.1',
-        'pydantic==2.5.1',
-        'typing-extensions==4.8.0',
-    ],
+    install_requires=requirements,
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
