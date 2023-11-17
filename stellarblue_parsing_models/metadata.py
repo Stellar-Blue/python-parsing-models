@@ -1,4 +1,4 @@
-from file import CustomFile
+from stellarblue_parsing_models.file import CustomFile
 from typing import Generic, TypeVar, Optional
 from pydantic import BaseModel
 
