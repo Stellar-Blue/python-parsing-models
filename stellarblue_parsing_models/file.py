@@ -1,8 +1,7 @@
-from typing import Optional, Union, Type
+from typing import Optional, Union
 from pydantic import BaseModel
-from fastapi import File, Form, UploadFile
+from fastapi import Form
 
-import inspect
 from datetime import date, datetime
 
 class CustomFile(BaseModel):

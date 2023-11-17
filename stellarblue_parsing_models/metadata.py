@@ -1,4 +1,4 @@
-from models.file import CustomFile
+from file import CustomFile
 from typing import Generic, TypeVar, Optional
 from pydantic import BaseModel
 
