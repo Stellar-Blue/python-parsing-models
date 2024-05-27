@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='stellarblue-parsing-models', 
-    version='1.0.0',
+    version='1.0.1',
     author='George Tsoumalis',
     author_email='gtsoumalis@stellarblue.eu',
     description='A Python package for parsing models',
